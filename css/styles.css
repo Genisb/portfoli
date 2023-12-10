@@ -1,0 +1,99 @@
+.navbar{
+    padding: 10px;
+    background-color: aliceblue;
+    display: flex;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.seccio-presentacio{
+    padding-top: 30px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 450px;
+    
+}
+h1 {
+    font-size: 2.5rem;
+    font-family: 'Rubik Dirt', cursive;
+}
+h2{
+    font-size: 1.5rem;
+    color: #615151;
+}
+.tecnologies-descripcio{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.tecnologies-utilitzo{
+    display: block;
+}
+@media screen and (max-width:767px) {
+    .tecnologies-utilitzo{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media screen and (min-width:768px) {
+    .tecnologies-utilitzo{
+        flex-direction: row;
+        align-items: center;
+    }
+    .svg{
+        /* width="450" height="450" */
+        width:450px;
+        height:450px;
+    }
+}
+.experiencia-laboral{
+    padding-top: 15px;
+    text-align: center;
+}
+
+
+.experience-container{
+    max-width: 800px;
+    margin: auto;
+}
+
+
+  
+  p {
+    margin: 5px 0;
+  }
+  
+  
+  .job {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .job h3 {
+    margin-top: 0;
+  }
+  
+  .job-date {
+    font-style: italic;
+    color: #777;
+  }
+  
+  .job-description {
+    color: #333;
+  }
+
+  #contact-form{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 10px;
+    line-height: 3;
+    border-radius: 15px;
+  }
+
+  .btn-email{
+    margin-top: 20px;
+    border-radius: 50px;
+    border-style: none;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  }

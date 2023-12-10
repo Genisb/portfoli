@@ -1,0 +1,16 @@
+<div style="margin-top: 20px; display: flex; justify-content: center;">
+    <form class="col-md-6 col-12 d-flex flex-column" id="contact-form" action="https://formspree.io/f/myyqrnbb" method="POST">
+        <h1>Vols contactar amb mi?</h1>
+        <label for="nombre">Qui ets?</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Escriu el teu nom" required>
+    
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Escriu el teu email" required>
+    
+        <label for="mensaje">En què et puc ajudar?</label>
+        <textarea id="mensaje" name="mensaje" required placeholder="Escriu aquí el cos del missatges"></textarea>
+    
+        <button class="btn-email" type="button" onclick="enviarFormulario()">Enviar</button>
+        <p id="status-message"></p>
+      </form>
+</div>
